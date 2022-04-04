@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+</head>
+<body>
+
+    <div class="gameScreen">
+<h1 class="title">Guess a Number (1-30)</h1>  
+
+   
+        <h3 class="chancesLabel">Chances Left</h3>
+
+  
+    <p class="chancesLeft"></p>
+
+    <div class="playersField">
+<h4 class="playerLabel">Current Turn: </h4>
+<p class="currentTurn">Click Start to Play</p>
+    </div>
+
+  </div>
+
+
+<br>
+
+<center>
+<input class="gameSwitch" type="button" value="START"/>
+<input class="resetSwitch" type="button" value="RESET"/>
+
+</center>
+
+<br><br>
+<div class="inputSection center">
+    <p>Your Number:</p>
+<input class="userGuess" type="number" minlength="1" maxlength="2" /><br>
+<input class="inputButton"type="button" value="Submit"/>
+</div>
+<br><br>
+<div class="rules center">
+<h3>Rules:</h3>
+<p>1. Guess a number between 1 and 30</p>
+<p>2. Both players are given 3 chances</p>
+<p>3. If number isn't chosen, the closest guess will win.</p>
+</div>
+</body>
+<script type="text/javascript" src="index.js"> </script>
+</html>

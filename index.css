@@ -1,0 +1,136 @@
+.gameScreen{
+
+    margin: 0 auto;
+    border: 2px solid darkslategrey;
+    padding: 15px;
+    width: 700px;
+    max-width: 95%;
+    border-radius: 25px;
+    height: 300px;
+    background-color: #2f2f2f;
+}
+
+.title{
+    color: red;
+}
+
+.title, .chancesLabel, .chancesLeft{
+
+    text-align: center;
+}
+
+.chancesLabel{
+
+    color: lightslategray;
+    margin-top: 40px;
+
+}
+
+.center{
+    
+    margin: 0 auto;
+}
+
+.rules{
+
+    margin-top: 20px;
+    border: 2px solid #2f2f2f;
+    width: 400px;
+    max-width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: left;
+}
+
+.inputSection{
+    text-align: center;
+    width: 300px;
+}
+
+
+
+.userGuess{
+    height: 50px;
+    width: 80px;
+    border: 1px solid #2f2f2f;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputButton{
+    margin-top: 5px;
+    height:40px;
+    width:80px;
+    font-weight: 500;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid silver;
+}
+
+.inputButton:hover{
+    margin-top: 5px;
+    height:40px;
+    width:80px;
+    font-weight: 500;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid gold;
+}
+.playersField{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+.playerLabel, .currentTurn{
+    color: white;
+}
+
+
+
+
+.gameSwitch{
+    
+    margin-top:30px;
+    padding:10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.resetSwitch{
+    
+    margin-top:30px;
+    padding:10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.chancesLeft{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gold;
+}
+
+.currentTurn{
+    margin-top: 0;
+}
+
+.playerLabel{
+
+    margin-top:30px;
+}
